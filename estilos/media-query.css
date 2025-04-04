@@ -10,14 +10,14 @@ Desktop: 992 até 1200px
 */
 
 @media screen and (min-width:768px) and (max-width:992px) {
-
+    /* configurações para tablet*/
     body {
         background-image: linear-gradient(to top, #49a09d, #5d2c82);
     }
 
     section#login {
         width: 90vw;
-
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -37,12 +37,13 @@ Desktop: 992 até 1200px
 }
 
 @media screen and (min-width:992px) {
-
+    /* configurações para desktop*/
     body {
         background-image: linear-gradient(to top, #49a09d, #5d2c82);
     }
     section#login {
         width: 950px;
+        height: 400px;
     }
 
     section#login > div#imagem {
